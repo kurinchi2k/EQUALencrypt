@@ -16,7 +16,7 @@ authors:
 affiliations:
   - index: 1
     name: University College London, United Kingdom
-date: "2025-08-21"
+date: 21 August 2025
 bibliography: paper.bib
 ---
 
@@ -49,6 +49,9 @@ Testing of EQUALencrypt - Encrypt and decrypt whole files [@Gurusamy:2025a] was 
 Testing of EQUALencrypt - Encrypt and decrypt columns of data [@Gurusamy:2025b] was performed on simulated data.
 
 The tests revealed that the decrypted data was identical to the encrypted data when the encrypted data, digital signature, and the keys matched. Decryption was not performed in any instance in which there was a mismatch in any of encrypted data, digital signature, and the keys or if there was an alteration to the data.
+
+# Acknowledgements
+No external source of funding
 
 # Conflicts of Interest
 My salary and promotions are linked to performing and reporting high-quality research.
