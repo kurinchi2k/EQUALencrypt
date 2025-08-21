@@ -1,7 +1,7 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 LICENSE.TXT
-JOSS_SUBMISSION.MD
+paper.md
 paper.bib
 Encrypt whole file.R
 Encrypt whole file testing.R
