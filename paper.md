@@ -7,7 +7,7 @@ tags:
   - data sharing
   - secondary analysis
   - reproducibility
-author: 
+authors: 
   - name: Kurinchi Gurusamy
     affiliation: University College London, United Kingdom
     orcid: 0000-0002-0313-9134
