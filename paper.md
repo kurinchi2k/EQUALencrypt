@@ -8,15 +8,11 @@ tags:
   - secondary analysis
   - reproducibility
 authors:
-  - name: Albert Krewinkel
-    affiliation: "1, 2, 3"
+  - name: Kurinchi Gurusamy
+    affiliation: 1
 affiliations:
   - index: 1
-    name: Laboratório Nacional de Luz Síncrotron, Brazil
-  - index: 2
-    name: Gadjah Mada University, Indonesia
-  - index: 3
-    name: Technische Universitaet Hamburg, Germany
+    name: University College London
 date: 21 August 2025
 bibliography: paper.bib
 ---
