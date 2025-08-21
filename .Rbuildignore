@@ -1,0 +1,10 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+LICENCE.TXT
+JOSS_SUBMISSION.MD
+Encrypt whole file.R
+Encrypt whole file testing.R
+results_whole_file_testing.zip
+Encrypt columns of data.R
+Encrypt columns of data testing.R
+results_columns_of_data_testing.zip
