@@ -7,22 +7,16 @@ tags:
   - data sharing
   - secondary analysis
   - reproducibility
-author:
-  - Jane Doe:
-      institute:
-        - federation
-      equal_contributor: "yes"
-      correspondence: "yes"
-      email: jane.doe@example.com
-  - John Q. Doe:
-      institute: [federation, acme]
-      equal_contributor: "yes"
-  - Juan Pérez:
-      institute: acme
-institute:
-  - federation: Federation of Planets
-  - acme:
-      name: Acme Corporation
+authors:
+  - name: Albert Krewinkel
+    affiliation: "1, 2, 3"
+affiliations:
+  - index: 1
+    name: Laboratório Nacional de Luz Síncrotron, Brazil
+  - index: 2
+    name: Gadjah Mada University, Indonesia
+  - index: 3
+    name: Technische Universitaet Hamburg, Germany
 date: 21 August 2025
 bibliography: paper.bib
 ---
