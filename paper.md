@@ -14,7 +14,6 @@ author:
     corresponding: true
 date: "2025-08-21"
 bibliography: paper.bib
-output: html_document
 ---
 
 # Summary
