@@ -15,7 +15,6 @@ authors:
 affiliations:
  - name: Professor of Evidence-based Medicine and Surgery, University College London, United Kingdom
    index: 1
-   ror: 00hx57361
 date: "2025-08-21"
 bibliography: paper.bib
 ---
