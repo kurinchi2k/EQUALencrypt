@@ -9,9 +9,13 @@ tags:
   - reproducibility
 authors: 
   - name: Kurinchi Gurusamy
-    affiliation: University College London, United Kingdom
+    affiliation: 1
     orcid: 0000-0002-0313-9134
     corresponding: true
+affiliations:
+ - name: Professor of Evidence-based Medicine and Surgery, University College London, United Kingdom
+   index: 1
+   ror: 00hx57361
 date: "2025-08-21"
 bibliography: paper.bib
 ---
