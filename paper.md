@@ -7,15 +7,22 @@ tags:
   - data sharing
   - secondary analysis
   - reproducibility
-authors: 
-  - given-names: Kurinchi
-    surname: Gurusamy
-    affiliation: '1'
-    orcid: 0000-0002-0313-9134
-    corresponding: true
-affiliations:
-  - index: 1
-    name: University College London, United Kingdom
+author:
+  - Jane Doe:
+      institute:
+        - federation
+      equal_contributor: "yes"
+      correspondence: "yes"
+      email: jane.doe@example.com
+  - John Q. Doe:
+      institute: [federation, acme]
+      equal_contributor: "yes"
+  - Juan Pérez:
+      institute: acme
+institute:
+  - federation: Federation of Planets
+  - acme:
+      name: Acme Corporation
 date: 21 August 2025
 bibliography: paper.bib
 ---
