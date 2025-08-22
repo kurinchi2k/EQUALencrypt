@@ -11,6 +11,7 @@ authors:
   - given-names: Kurinchi
     surname: Gurusamy
     orcid: 0000-0002-0313-9134
+    email: k.gurusamy@ucl.ac.uk
     corresponding: true
     affiliation: '1'
 affiliations:
