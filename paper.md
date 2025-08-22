@@ -8,8 +8,11 @@ tags:
   - secondary analysis
   - reproducibility
 authors:
-  - name: Kurinchi Gurusamy
-    affiliation: 1
+  - given-names: Kurinchi
+    surname: Gurusamy
+    orcid: 0000-0002-0313-9134
+    corresponding: true
+    affiliation: '1'
 affiliations:
   - index: 1
     name: University College London
@@ -25,6 +28,10 @@ Sharing research data will enable testing the data for reproducibility of analys
 
 R is a free software with advanced statistical algorithms, data encryption and decryption, and digital signature insertion verification. However, considerable coding skills are necessary. 
 
+# State of the field
+As far as we are aware, there are no shiny applications that support encryption and decryption for researchers without coding skills, particularly following the approach followed for these shiny applications (please see below).
+
+# Shiny applications
 Two shiny applications *EQUALencrypt - Encrypt and decrypt columns of data* [@Gurusamy:2025a] and *EQUALencrypt - Encrypt and decrypt whole files* [@Gurusamy:2025b] were created, which allow people with no coding skills to encrypt data. 
 
 # Approach for data encryption and insertion of digital signature
@@ -48,9 +55,12 @@ Testing of EQUALencrypt - Encrypt and decrypt columns of data [@Gurusamy:2025b] 
 The tests revealed that the decrypted data was identical to the encrypted data when the encrypted data, digital signature, and the keys matched. Decryption was not performed in any instance in which there was a mismatch in any of encrypted data, digital signature, and the keys or if there was an alteration to the data.
 
 # Acknowledgements
-No external source of funding
+No external source of funding.
 
 # Conflicts of Interest
 My salary and promotions are linked to performing and reporting high-quality research.
+
+# Code of Conduct
+I confirm that I read and will adhere to the JOSS code of conduct.
 
 # References
