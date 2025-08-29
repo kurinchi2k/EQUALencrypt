@@ -1,0 +1,6 @@
+"Nature of test","Level 0 data is unencrypted data. So, no encryption is performed. The signature is verified with the correct public key.","No columns expected: TRUE","Same columns as level 0, i.e., only unencrypted data."
+"Correct files",0,14,0
+"Random files",0,14,0
+"Wrong main content",0,14,0
+"Wrong private keys",10,8,2
+"Wrong public keys",0,14,0

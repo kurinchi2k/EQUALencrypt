@@ -1,0 +1,6 @@
+"Nature of test","No columns expected: TRUE","Test not performed as level 0 is the lowest level of access","Test not performed as level 7 is the highest level of access","Test not performed as the columns expected at this level are the same as those expected at the lower level"
+"Correct levels",2,0,0,0
+"Private keys higher",2,0,10,0
+"Private keys lower",0,10,0,5
+"Public keys higher",2,0,10,0
+"Public keys lower",0,10,0,7

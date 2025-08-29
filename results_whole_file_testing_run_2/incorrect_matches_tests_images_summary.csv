@@ -1,0 +1,7 @@
+"Nature of test","Successful match - TRUE","Successful match - FALSE"
+"Correct files",30,0
+"random files",0,30
+"Wrong encrypted file",0,30
+"Wrong private key file",0,30
+"Wrong public key file",0,30
+"Wrong signature file",0,30

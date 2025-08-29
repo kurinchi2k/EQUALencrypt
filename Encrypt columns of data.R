@@ -1,5 +1,5 @@
 # Options ####
-# Version 0.4 Pre-release version
+# Version After CRAN release 0.1
 options(scipen=9999)
 # Expand memory and improve options
 options(shiny.maxRequestSize = 30*1024^2)
@@ -270,12 +270,9 @@ if (server_address != tempdir()) {
   }
 }
 library("shiny")
-library("openssl")
-library("stringr")
-library("uuid")
 library("shinyjs")
 library("shinybusy")
-library("zip")
+library("EQUALencrypt")
 # Interface ####
 # Some functions and list to create the user interface
 {

@@ -1,0 +1,6 @@
+"Nature of test","Successful match - TRUE","Successful match - FALSE"
+"Correct files",78,0
+"Random files",0,78
+"Wrong main content",0,78
+"Wrong private keys",0,68
+"Wrong public keys",0,78
