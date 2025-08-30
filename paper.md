@@ -8,16 +8,14 @@ tags:
   - secondary analysis
   - reproducibility
 authors:
-  - given-names: Kurinchi
-    surname: Gurusamy
+  - name: "Kurinchi Gurusamy"
     orcid: 0000-0002-0313-9134
-    email: k.gurusamy@ucl.ac.uk
+    email: 'k.gurusamy@ucl.ac.uk'
     corresponding: true
-    affiliation: '1'
+    affiliation: 1
 affiliations:
-  - index: 1
-    name: University College London
-date: 29 August 2025
+  - index: '1'
+    name: "University College London"
 bibliography: paper.bib
 ---
 
@@ -63,8 +61,5 @@ No external source of funding.
 
 # Conflicts of Interest
 My salary and promotions are linked to performing and reporting high-quality research.
-
-# Code of Conduct
-I confirm that I read and will adhere to the JOSS code of conduct.
 
 # References
