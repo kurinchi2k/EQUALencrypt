@@ -1,0 +1,7 @@
+# Build app
+docker compose up --build
+# Check whether the app works in port 3838 by typing http://localhost:3838 in a browser
+# Press Ctrl c after confirming that the previous step is working
+docker build -t equalencrypt_whole_file:latest .
+docker tag equalencrypt_whole_file kurinchi2k/equalencrypt_whole_file
+# After this push this to repository from Docker Desktop app

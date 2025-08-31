@@ -1,0 +1,7 @@
+services:
+  shiny-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3838:3838
