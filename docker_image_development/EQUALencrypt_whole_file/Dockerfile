@@ -1,12 +1,12 @@
 # Use an official R runtime as a parent image
-# The 4.4.0 version is choosen for compatibility with libpq-dev library
-FROM r-base:4.4.0 
+FROM r-base:latest 
 
-# Install required libraries
-RUN apt-get update && \
-    apt-get install -y base-files libpq-dev && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+# openssl does not install directly
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+    libssl-dev \
+    && rm -rf /var/lib/apt/lists/* \
+    && R -q -e 'install.packages("openssl")'
 
 # Install R packages
 RUN R -e "install.packages(c('shiny', 'shinybusy', 'shinyjs', 'EQUALencrypt'))" 
